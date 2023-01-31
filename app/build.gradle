@@ -46,8 +46,4 @@ dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.slack.api:slack-api-client:1.27.3")
-
-    def room_version = "2.5.0"
-    implementation "androidx.room:room-runtime:$room_version"
-    annotationProcessor "androidx.room:room-compiler:$room_version"
 }
